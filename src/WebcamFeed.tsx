@@ -187,14 +187,13 @@ const WebcamFeed: React.FC = () => {
 
   return (
     <div className="container text-center py-4" style={{ maxWidth: '1000px', minHeight: '100vh' }}>
-      <h2 className="mb-4">Webcam Feed</h2>
 
-      <button onClick={toggleWebcam} className="btn btn-dark mb-3">
+      <button onClick={toggleWebcam} className="webcam-button mb-3">
         {isWebcamOn ? 'Stop Webcam' : 'Start Webcam'}
       </button>
 
       <div
-        className="position-relative mx-auto mb-5"
+        className="position-relative mx-auto mb-5 camera-box"
         style={{ width: '100%', maxWidth: '800px', aspectRatio: '4 / 3' }}
       >
         <video
@@ -219,7 +218,7 @@ const WebcamFeed: React.FC = () => {
       </div>
 
       <hr />
-      <h3 className="mb-3">Or Upload an Image</h3>
+      <h2 className="mb-3">Upload an Image</h2>
       <input
         type="file"
         accept="image/*"
@@ -253,6 +252,8 @@ const WebcamFeed: React.FC = () => {
       {scanMessage && (
         <p className="text-success mt-3">{scanMessage}</p>
       )}
+
+      <footer className="footerNote">© Toni Thomas 2025 🩷</footer>
     </div>
   );
 };

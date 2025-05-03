@@ -4,7 +4,7 @@ import WebcamFeed from './WebcamFeed';
 function App() {
   return (
     <div className="App">
-      <h1>Voicera Face Recognition App</h1>
+      <h1>Face Recognition Scanner</h1>
       <WebcamFeed />
     </div>
   );
