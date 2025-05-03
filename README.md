@@ -46,7 +46,7 @@ This is a responsive React + TypeScript web application that captures live webca
 ### Installation
 
 ```bash
-git clone https://github.com/DiyBookOfLife/webcam-face-recognition.git
+git clone https://github.com/DiyBookOfLife/face-recognition-scanner
 cd webcam-face-recognition
 npm install
 
