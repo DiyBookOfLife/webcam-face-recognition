@@ -2,6 +2,10 @@
 
 This is a responsive React + TypeScript web application that captures live webcam feeds, performs facial detection and analysis using `face-api.js`, and allows users to upload images for face recognition as well.
 
+## 🔗 Live Demo
+
+👉 [Click here to view the live app](https://webcam-face-recognition-wine.vercel.app)
+
 ## 📸 Features
 
 - Start and stop webcam feed using MediaDevices API.
@@ -45,3 +49,4 @@ This is a responsive React + TypeScript web application that captures live webca
 git clone https://github.com/DiyBookOfLife/webcam-face-recognition.git
 cd webcam-face-recognition
 npm install
+
