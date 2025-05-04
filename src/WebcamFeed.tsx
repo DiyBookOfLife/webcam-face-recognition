@@ -250,7 +250,13 @@ const WebcamFeed: React.FC = () => {
       )}
 
       {scanMessage && (
-        <p className="text-success mt-3">{scanMessage}</p>
+        <p
+          className={`scan-message mt-3 ${
+            scanMessage.includes("⚠️") ? "warning" : ""
+          }`}
+        >
+          {scanMessage}
+        </p>
       )}
 
       <footer className="footerNote">© Toni Thomas 2025 🩷</footer>

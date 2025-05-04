@@ -2,7 +2,7 @@
   --bg: #62849c;
   --card-bg: #c6c6c9;
   --text: #f0f0f0;
-  --accent: #61dafb; /* Or try #ff4081 for a pop */
+  --accent: #9c1085; /* Or try #ff4081 for a pop */
   --btn-bg: #333;
   --btn-hover: #444;
 }
@@ -51,6 +51,18 @@ h1, h2, h3 {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
+
+.scan-message {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--accent);
+  text-align: center;
+}
+
+.scan-message.warning {
+  color: #9c1085; 
+}
+
 
 @media (prefers-color-scheme: light) {
   :root {
